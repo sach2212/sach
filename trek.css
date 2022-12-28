@@ -208,7 +208,7 @@ section {
 
 /* -------------adventure---------------- */
 
-.category {}
+
 
 .box-container {
   /* width: 100%;
@@ -618,7 +618,7 @@ h4 {
 
 }
 
-.sc-box .btn:hover {}
+
 
 
 
@@ -1040,14 +1040,7 @@ background-color: #c4c4c4;
     width: 100%;
   }
 
-  .pcbox-container {
-    /* /* display: flex; */
-
-    /* padding: 0 4px; */
-
-
-
-  }
+ 
 
   .pcbox-container {
     display: flex;
