@@ -73,7 +73,7 @@ header.active {
     /* color:rgb(50, 166, 50); 
 } */
 #menu-btn {
-  display: none;
+  display: none;  /*to hide*/
 }
 
 #nav-close {
@@ -726,7 +726,7 @@ span {
 .slide-bl {
 
   /* text-align: center; */
-  margin: 2rem;
+  padding: 2rem;
 
 
   width: 30rem;
@@ -736,11 +736,11 @@ span {
 
 .slide-bl img {
 
-  height: 15rem;
+  height: 20rem;
 
   width: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .icon {
@@ -750,11 +750,11 @@ span {
   background: #052902;
   position: relative;
   text-align: center;
-  margin: auto;
+  /* margin: auto;  */
   top: -1.5rem;
   display: inline-block;
-  font-size: 1.2rem;
-  padding: 1rem;
+  font-size: 1rem;
+  padding: .8rem;
 
   border-radius: 15px;
 
@@ -787,9 +787,10 @@ span {
 
   line-height: 2rem;
   font-size: 1.2rem;
-  width: 28rem;
-  margin: auto;
-background-color: #c4c4c4;
+  /* width: 28rem; */
+   padding: .8rem 0;
+
+/* text-overflow: ellipsis; */
 }
 
 /* =====================nrewsletter-==========================/ */
@@ -989,7 +990,7 @@ background-color: #c4c4c4;
 
 
 
-/* ///////////////////////media querry'////////////////// */
+/* ///////////////////////media querry'//////////////////-----------///////////////////////// */
 @media (max-width: 1200px) {
 
 
@@ -1094,7 +1095,7 @@ background-color: #c4c4c4;
   }
 
   .content h3 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .box-container {
@@ -1105,7 +1106,7 @@ background-color: #c4c4c4;
 
 
   .heading {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     z-index: -10000;
   }
 
@@ -1184,29 +1185,6 @@ background-color: #c4c4c4;
 
 
   /* ==========blog========= */
-  .slide-bl {
-
-   
-    margin: 2rem;
-    width: 20rem;
-    text-align: center;
-  
-  }
-
-  .slide-bl p{
-
-    /* width: 100%; */
-    font-size: 1rem;
-  }
-  
-  .slide-bl img {
-  
-    height: 12rem;
-  
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
 
 
 
@@ -1215,6 +1193,7 @@ background-color: #c4c4c4;
 
 
 
+ 
 
 
 
@@ -1224,6 +1203,7 @@ background-color: #c4c4c4;
 @media (max-width: 650px){
 
 
+  
   .form{
 
     width: 18rem;
@@ -1264,28 +1244,7 @@ background-color: #c4c4c4;
       font-size: 1.3rem;
     }
 
-    .slide-bl {
-
-   
-      margin: 2rem;
-      width: 8rem;
-      text-align: center;
     
-    }
-    .slide-bl p{
-      font-size: 1rem;
-      padding: 0 2rem;
-
-    }
-    
-    .slide-bl img {
-    
-      /* height: 12rem; */
-    
-      width: 100%;
-      object-fit: cover;
-      border-radius: 10px;
-    }
 
 
 
